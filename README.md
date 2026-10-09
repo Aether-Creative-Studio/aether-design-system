@@ -2,7 +2,12 @@
 
 The single source of truth for design decisions across Aether projects. Values live here as design tokens; every design tool and codebase receives generated copies.
 
-**Status:** tokens imported from Webflow and Figma. Generated outputs and syncing come next.
+**Status:** tokens imported and outputs generated. Syncing to Webflow and Figma comes next.
+
+## Use it
+
+- **Web projects:** include `dist/css/variables.css` and `dist/css/typography.css`.
+- **Change a value:** edit `tokens/`, run `npm run build`, open a pull request.
 
 ## How it works
 

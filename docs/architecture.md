@@ -42,17 +42,20 @@ Dimensions are stored in rem (16px = 1rem).
 
 ## Outputs
 
-A build step (Style Dictionary, an open-source token build tool) turns `tokens/` into `dist/`:
+`npm run build` turns `tokens/` into `dist/`. The build is one dependency-free script (`build/build.mjs`) that needs only Node, so it runs anywhere in under a second and an agent can read all of it.
 
-| Output | Consumer |
-| --- | --- |
-| CSS custom properties | Traditional development, any web project |
-| Webflow variable map | Webflow sites, synced through the Webflow connector |
-| Figma variables | Figma |
-| DTCG tokens file | Penpot |
-| To be confirmed | Elyx |
+| File | Consumer | Notes |
+| --- | --- | --- |
+| `dist/css/variables.css` | Any web project | Custom properties on `:root`; dark values under `[data-mode="dark"]` |
+| `dist/css/typography.css` | Any web project | One class per type style, named like the Webflow class |
+| `dist/webflow/variables.json` | Webflow sync | Collections, modes and values keyed by CSS name; type classes |
+| `dist/figma/variables.json` | Figma sync | Collections, modes, aliases, code syntax and text styles; sizes in px |
+| `dist/penpot/tokens.json` | Penpot import | Tokens Studio multi-set format, the one Penpot imports; sizes in px |
+| To be confirmed | Elyx | |
 
-`dist/` is committed so that tools and people can use it without running a build. A check on each pull request fails if `dist/` is out of date.
+Figma variable and text style names are the token's `group/name`, such as `text-color/text-primary`, so Figma uses the same words as the code.
+
+`dist/` is committed so that tools and people can use it without running a build. `npm run check` fails if `dist/` is out of date, and runs on every pull request.
 
 ## Flow of a change
 

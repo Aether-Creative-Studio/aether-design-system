@@ -1,0 +1,96 @@
+/* Generated from tokens/ by build/build.mjs. Do not edit. */
+.heading-style-hero {
+  font-family: var(--font-family--figtree);
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0rem;
+}
+
+.heading-style-h1 {
+  font-family: var(--font-family--figtree);
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0rem;
+}
+
+.heading-style-h2 {
+  font-family: var(--font-family--figtree);
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0rem;
+}
+
+.heading-style-h3 {
+  font-family: var(--font-family--figtree);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0rem;
+}
+
+.heading-style-h4 {
+  font-family: var(--font-family--figtree);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0rem;
+}
+
+.heading-style-h5 {
+  font-family: var(--font-family--figtree);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+}
+
+.heading-style-h6 {
+  font-family: var(--font-family--figtree);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+}
+
+.text-size-large {
+  font-family: var(--font-family--figtree);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+}
+
+.text-size-medium {
+  font-family: var(--font-family--figtree);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.48;
+  letter-spacing: 0rem;
+}
+
+.text-size-regular {
+  font-family: var(--font-family--figtree);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0rem;
+}
+
+.text-size-small {
+  font-family: var(--font-family--figtree);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4286;
+  letter-spacing: 0rem;
+}
+
+.text-size-tiny {
+  font-family: var(--font-family--figtree);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.6667;
+  letter-spacing: 0rem;
+}

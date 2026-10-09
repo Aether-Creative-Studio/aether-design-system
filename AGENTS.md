@@ -5,7 +5,7 @@ Short on purpose. Open other files only when the task needs them.
 ## Rules
 
 - Follow [PRINCIPLES.md](PRINCIPLES.md).
-- Edit values only in `tokens/`. Never edit `dist/` by hand; rebuild it.
+- Edit values only in `tokens/`. Never edit `dist/` by hand; run `npm run build` and commit the result.
 - Never rename a token without a decision record — names are shared by every tool.
 - Agent output is a proposal until John accepts it. All changes arrive as pull requests; nothing is merged or synced to a live tool without his approval.
 - Never commit credentials. Sync keys live in connectors or CI secrets.
