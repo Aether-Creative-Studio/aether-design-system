@@ -1,0 +1,114 @@
+{
+  "base": {
+    "base-color-system": {
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": "#ffffff00"
+      }
+    },
+    "base-color-brand": {
+      "50": {
+        "$type": "color",
+        "$value": "#f0fdf6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#dbfdec"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#b9f9d9"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#69f0ae"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#45e397"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#1ccb77"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#11a860"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#11844d"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#136840"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#125537"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#042f1c"
+      }
+    },
+    "base-color-neutral": {
+      "50": {
+        "$type": "color",
+        "$value": "#f6f6f6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#e7e7e7"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#d1d1d1"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#b0b0b0"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#888888"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#6d6d6d"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#5d5d5d"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4f4f4f"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#454545"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#3d3d3d"
+      },
+      "925": {
+        "$type": "color",
+        "$value": "#242424"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0a0a0a"
+      }
+    }
+  }
+}

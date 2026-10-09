@@ -1,0 +1,216 @@
+{
+  "base": {
+    "font-family": {
+      "figtree": {
+        "$type": "fontFamily",
+        "$value": [
+          "Figtree",
+          "sans-serif"
+        ],
+        "$description": "Webflow font name: \"Figtree Variablefont Wght\"."
+      }
+    },
+    "heading-style": {
+      "hero": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 300,
+          "fontSize": {
+            "value": 5,
+            "unit": "rem"
+          },
+          "lineHeight": 1.1,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "Class removed from Webflow by Clean Up; values from Figma Heading/Hero."
+      },
+      "h1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 300,
+          "fontSize": {
+            "value": 4,
+            "unit": "rem"
+          },
+          "lineHeight": 1.2,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "2.5rem at the mobile breakpoint."
+      },
+      "h2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 300,
+          "fontSize": {
+            "value": 3,
+            "unit": "rem"
+          },
+          "lineHeight": 1.2,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        }
+      },
+      "h3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 2,
+            "unit": "rem"
+          },
+          "lineHeight": 1.4,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "Webflow class sets no weight or family; 400 from Figma."
+      },
+      "h4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 1.5,
+            "unit": "rem"
+          },
+          "lineHeight": 1.4,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        }
+      },
+      "h5": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 500,
+          "fontSize": {
+            "value": 1.25,
+            "unit": "rem"
+          },
+          "lineHeight": 1.5,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        }
+      },
+      "h6": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 600,
+          "fontSize": {
+            "value": 1,
+            "unit": "rem"
+          },
+          "lineHeight": 1.5,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        }
+      }
+    },
+    "text-size": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 1.5,
+            "unit": "rem"
+          },
+          "lineHeight": 1.5,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        }
+      },
+      "medium": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 1.25,
+            "unit": "rem"
+          },
+          "lineHeight": 1.48,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "Webflow line height is 1.85rem (29.6px)."
+      },
+      "regular": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 1,
+            "unit": "rem"
+          },
+          "lineHeight": 1.6,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        }
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 0.875,
+            "unit": "rem"
+          },
+          "lineHeight": 1.4286,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "No line height on the class; inherits 20px from the body tag."
+      },
+      "tiny": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{base.font-family.figtree}",
+          "fontWeight": 400,
+          "fontSize": {
+            "value": 0.75,
+            "unit": "rem"
+          },
+          "lineHeight": 1.6667,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "No line height on the class; inherits 20px from the body tag."
+      }
+    }
+  }
+}
