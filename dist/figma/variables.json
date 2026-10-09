@@ -302,8 +302,7 @@
           "valuesByMode": {
             "Base": "Figtree",
             "Dark": "Figtree"
-          },
-          "description": "Webflow font name: \"Figtree Variablefont Wght\"."
+          }
         },
         {
           "name": "border-color/border-primary",

@@ -48,7 +48,7 @@ Dimensions are stored in rem (16px = 1rem).
 | --- | --- | --- |
 | `dist/css/variables.css` | Any web project | Custom properties on `:root`; dark values under `[data-mode="dark"]` |
 | `dist/css/typography.css` | Any web project | One class per type style, named like the Webflow class |
-| `dist/webflow/variables.json` | Webflow sync | Collections, modes and values keyed by CSS name; type classes |
+| `dist/webflow/variables.json` | Webflow sync | Collections, modes and values keyed by CSS name; type classes. Fonts use their Webflow name from `$extensions.webflow.fontFamily` |
 | `dist/figma/variables.json` | Figma sync | Collections, modes, aliases, code syntax and text styles; sizes in px |
 | `dist/penpot/tokens.json` | Penpot import | Tokens Studio multi-set format, the one Penpot imports; sizes in px |
 | To be confirmed | Elyx | |

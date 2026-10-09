@@ -2,7 +2,7 @@
 
 The single source of truth for design decisions across Aether projects. Values live here as design tokens; every design tool and codebase receives generated copies.
 
-**Status:** tokens imported and outputs generated. Syncing to Webflow and Figma comes next.
+**Status:** Webflow and Figma sync from this repo and match it. Type classes, Penpot and Elyx come next.
 
 ## Use it
 

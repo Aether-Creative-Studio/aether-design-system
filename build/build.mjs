@@ -23,7 +23,8 @@ function flatten(tree, set, out = new Map(), path = []) {
     if (node && typeof node === 'object' && '$value' in node) {
       const id = p.join('.');
       if (out.has(id)) throw new Error(`Duplicate token ${id}`);
-      out.set(id, { id, path: p, set, type: node.$type, value: node.$value, description: node.$description });
+      out.set(id, { id, path: p, set, type: node.$type, value: node.$value, description: node.$description,
+        extensions: node.$extensions });
     } else flatten(node, set, out, p);
   }
   return out;
@@ -91,11 +92,13 @@ const typographyCss = typography.map((t) => {
 }).join('\n');
 
 // ---------- Webflow ----------
+// A font's Webflow name can differ from its family name (uploaded fonts get Webflow's own label).
+const wfFont = (t) => t.extensions?.webflow?.fontFamily ?? t.value[0];
 const wfValue = (t, v) => {
   const r = refOf(v);
   if (r) return { ref: cssName(base.get(r).path) };
   if (t.type === 'dimension') return { value: v.value, unit: v.unit };
-  if (t.type === 'fontFamily') return v[0];
+  if (t.type === 'fontFamily') return wfFont(t);
   return v;
 };
 const webflow = {
@@ -114,7 +117,7 @@ const webflow = {
   classes: typography.map((t) => ({
     name: typeClass(t),
     properties: {
-      'font-family': resolve(refOf(t.value.fontFamily), 'base')[0],
+      'font-family': wfFont(base.get(refOf(t.value.fontFamily))),
       'font-size': dim(t.value.fontSize), 'font-weight': String(t.value.fontWeight),
       'line-height': String(t.value.lineHeight), 'letter-spacing': dim(t.value.letterSpacing),
     },
@@ -169,7 +172,8 @@ function penpotTree(tree) {
     const value = tree.$type === 'typography'
       ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, conv(x)]))
       : tree.$type === 'fontFamily' ? v[0] : conv(v);
-    return { ...tree, $type: PENPOT_TYPE[tree.$type] ?? tree.$type, $value: value };
+    const { $extensions, ...rest } = tree;
+    return { ...rest, $type: PENPOT_TYPE[tree.$type] ?? tree.$type, $value: value };
   }
   return Object.fromEntries(Object.entries(tree).map(([k, x]) => [k, k.startsWith('$') ? x : penpotTree(x)]));
 }

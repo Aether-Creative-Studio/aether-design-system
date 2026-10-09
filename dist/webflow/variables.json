@@ -219,8 +219,8 @@
           "cssName": "--font-family--figtree",
           "type": "FontFamily",
           "values": {
-            "Base mode": "Figtree",
-            "Dark": "Figtree"
+            "Base mode": "Figtree Variablefont Wght",
+            "Dark": "Figtree Variablefont Wght"
           }
         },
         {
@@ -988,7 +988,7 @@
     {
       "name": "heading-style-hero",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "5rem",
         "font-weight": "300",
         "line-height": "1.1",
@@ -998,7 +998,7 @@
     {
       "name": "heading-style-h1",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "4rem",
         "font-weight": "300",
         "line-height": "1.2",
@@ -1008,7 +1008,7 @@
     {
       "name": "heading-style-h2",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "3rem",
         "font-weight": "300",
         "line-height": "1.2",
@@ -1018,7 +1018,7 @@
     {
       "name": "heading-style-h3",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "2rem",
         "font-weight": "400",
         "line-height": "1.4",
@@ -1028,7 +1028,7 @@
     {
       "name": "heading-style-h4",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "1.5rem",
         "font-weight": "400",
         "line-height": "1.4",
@@ -1038,7 +1038,7 @@
     {
       "name": "heading-style-h5",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "1.25rem",
         "font-weight": "500",
         "line-height": "1.5",
@@ -1048,7 +1048,7 @@
     {
       "name": "heading-style-h6",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "1rem",
         "font-weight": "600",
         "line-height": "1.5",
@@ -1058,7 +1058,7 @@
     {
       "name": "text-size-large",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "1.5rem",
         "font-weight": "400",
         "line-height": "1.5",
@@ -1068,7 +1068,7 @@
     {
       "name": "text-size-medium",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "1.25rem",
         "font-weight": "400",
         "line-height": "1.48",
@@ -1078,7 +1078,7 @@
     {
       "name": "text-size-regular",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "1rem",
         "font-weight": "400",
         "line-height": "1.6",
@@ -1088,7 +1088,7 @@
     {
       "name": "text-size-small",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "0.875rem",
         "font-weight": "400",
         "line-height": "1.4286",
@@ -1098,7 +1098,7 @@
     {
       "name": "text-size-tiny",
       "properties": {
-        "font-family": "Figtree",
+        "font-family": "Figtree Variablefont Wght",
         "font-size": "0.75rem",
         "font-weight": "400",
         "line-height": "1.6667",
