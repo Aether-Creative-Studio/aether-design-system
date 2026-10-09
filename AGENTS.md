@@ -16,7 +16,8 @@ Short on purpose. Open other files only when the task needs them.
 | --- | --- |
 | Tiers, naming, outputs | `docs/architecture.md` |
 | Why a past choice was made | `docs/decisions/` |
-| Token values | `tokens/` (not yet created) |
+| Token values | `tokens/` |
+| Known issues from the import | `docs/inventory-2026-10.md` |
 
 ## Pull requests
 

@@ -19,8 +19,26 @@ Tokens are stored as JSON in the W3C Design Tokens Community Group (DTCG) format
 ## Naming
 
 - One name, used verbatim in every tool (see Principle 2).
-- The existing Webflow variable names are the starting point, so the live site needs no renaming on day one. Inconsistent names are listed during inventory and fixed only through a decision record.
-- Lowercase, hyphen-separated words; groups separated the way Webflow's CSS variables already are.
+- The existing Webflow variable names are the starting point, so the live site needs no renaming on day one. Renames happen only through a decision record.
+- A token's path is `collection.group.name`, all lowercase and hyphenated, for example `base.text-color.text-primary`. The CSS name is generated from the path:
+
+| Collection | CSS name | Example |
+| --- | --- | --- |
+| `base` | `--{group}--{name}` | `--text-color--text-primary` |
+| any other | `--_{collection}---{group}--{name}` | `--_spacing---spacing--4` |
+
+## Files
+
+```
+tokens/
+├── core/          color.json, spacing.json, typography.json
+├── semantic/      color.json, status.json
+└── themes/
+    └── aether-creative-studio/
+        └── dark.json   only the tokens whose value differs in dark mode
+```
+
+Dimensions are stored in rem (16px = 1rem).
 
 ## Outputs
 

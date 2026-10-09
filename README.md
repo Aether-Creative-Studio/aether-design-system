@@ -2,7 +2,7 @@
 
 The single source of truth for design decisions across Aether projects. Values live here as design tokens; every design tool and codebase receives generated copies.
 
-**Status:** foundation. No tokens yet; the current values still live in Webflow and Figma and are brought in next.
+**Status:** tokens imported from Webflow and Figma. Generated outputs and syncing come next.
 
 ## How it works
 

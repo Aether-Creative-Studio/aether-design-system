@@ -1,0 +1,136 @@
+{
+  "base": {
+    "border-color": {
+      "border-primary": {
+        "$type": "color",
+        "$value": "{base.base-color-system.black}"
+      },
+      "border-secondary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.100}"
+      },
+      "border-alternate": {
+        "$type": "color",
+        "$value": "{base.base-color-system.white}"
+      },
+      "border-brand-light": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.300}"
+      },
+      "border-brand": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.500}"
+      },
+      "border-brand-dark": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.700}"
+      },
+      "border-transparent": {
+        "$type": "color",
+        "$value": "{base.base-color-system.transparent}"
+      },
+      "border-tertiary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.300}"
+      },
+      "border-brand-hover": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.600}"
+      },
+      "border-brand-active": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.700}"
+      },
+      "border-focus": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.500}"
+      }
+    },
+    "text-color": {
+      "text-primary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.950}"
+      },
+      "text-secondary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.700}"
+      },
+      "text-tertiary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.300}"
+      },
+      "text-quaternary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.200}"
+      },
+      "text-alternate": {
+        "$type": "color",
+        "$value": "{base.base-color-system.white}"
+      },
+      "text-brand-light": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.300}"
+      },
+      "text-brand": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.500}"
+      },
+      "text-brand-dark": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.700}"
+      }
+    },
+    "background-color": {
+      "background-primary": {
+        "$type": "color",
+        "$value": "{base.base-color-system.white}"
+      },
+      "background-alternate": {
+        "$type": "color",
+        "$value": "{base.base-color-system.black}"
+      },
+      "background-secondary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.100}"
+      },
+      "background-tertiary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.900}"
+      },
+      "background-brand-light": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.300}"
+      },
+      "background-brand": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.500}"
+      },
+      "background-brand-dark": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.700}"
+      },
+      "background-transparent": {
+        "$type": "color",
+        "$value": "{base.base-color-system.transparent}"
+      },
+      "background-frosted-glass": {
+        "$type": "color",
+        "$value": "#ffffff80"
+      },
+      "background-brand-hover": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.600}"
+      },
+      "background-brand-active": {
+        "$type": "color",
+        "$value": "{base.base-color-brand.700}"
+      }
+    },
+    "shadows": {
+      "shadow-light": {
+        "$type": "color",
+        "$value": "#0000001f"
+      }
+    }
+  }
+}

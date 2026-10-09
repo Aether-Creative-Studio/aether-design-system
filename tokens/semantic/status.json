@@ -1,0 +1,22 @@
+{
+  "status": {
+    "status": {
+      "success": {
+        "$type": "color",
+        "$value": "#22c55e"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#f59e0b"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#ef4444"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#0ea5e9"
+      }
+    }
+  }
+}

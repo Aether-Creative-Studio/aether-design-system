@@ -1,0 +1,110 @@
+{
+  "base": {
+    "base-color-system": {
+      "white": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "black": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "base-color-brand": {
+      "50": {
+        "$type": "color",
+        "$value": "#042f1c"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#125537"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#136840"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#11844d"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#11a860"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#45e397"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#69f0ae"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#b9f9d9"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#f0fdf6"
+      }
+    },
+    "base-color-neutral": {
+      "50": {
+        "$type": "color",
+        "$value": "#0a0a0a"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#242424"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#3d3d3d"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#454545"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#4f4f4f"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#888888"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#b0b0b0"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#d1d1d1"
+      },
+      "925": {
+        "$type": "color",
+        "$value": "#e7e7e7"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#f6f6f6"
+      }
+    },
+    "border-color": {
+      "border-secondary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.700}"
+      }
+    },
+    "text-color": {
+      "text-primary": {
+        "$type": "color",
+        "$value": "{base.base-color-system.black}"
+      },
+      "text-secondary": {
+        "$type": "color",
+        "$value": "{base.base-color-neutral.800}"
+      }
+    }
+  }
+}

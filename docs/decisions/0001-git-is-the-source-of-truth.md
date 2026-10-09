@@ -1,6 +1,6 @@
 # 0001 — Git is the source of truth
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-08
 
 ## Context
