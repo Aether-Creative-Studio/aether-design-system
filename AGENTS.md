@@ -18,6 +18,7 @@ Short on purpose. Open other files only when the task needs them.
 | Why a past choice was made | `docs/decisions/` |
 | Token values | `tokens/` |
 | Known issues from the import | `docs/inventory-2026-10.md` |
+| Writing rules (headings and more) | `docs/content/` |
 
 ## Pull requests
 
