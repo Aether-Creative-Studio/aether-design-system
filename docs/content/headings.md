@@ -30,6 +30,6 @@ How headings are written across Aether projects: page titles, section headings, 
 
 Project-specific terms, used verbatim:
 
-- "capability statement", never "capabilities statement"
+- "Capabilities Statement", the official term used by the SBA's Dynamic Small Business Search (DSBS). Always capitalized, including in headings and running text; plural "Capabilities Statements". Never "capability statement".
 - Newsletter sign-up heading: "Sign up for our newsletter."
 - Certifications: singular name with the acronym in parentheses, such as "Local Small Business Enterprise (LSBE)". "Small Business Enterprise (Proprietary)" and "Small Business Enterprise (Los Angeles)" keep their qualifier and take no acronym.
