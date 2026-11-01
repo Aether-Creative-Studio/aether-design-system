@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add heading rules in `docs/content/headings.md` and propose decision 0002 (content rules live here).
 - Import today's 96 variables and 12 type styles from Webflow and Figma into `tokens/`; record findings in `docs/inventory-2026-10.md`.
 - Accept decision 0001.
 

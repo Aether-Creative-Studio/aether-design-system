@@ -25,6 +25,7 @@ Every Aether project consumes the same core and semantic tokens and adds only it
 - [PRINCIPLES.md](PRINCIPLES.md) — the six rules every change follows
 - [docs/architecture.md](docs/architecture.md) — tiers, naming and outputs
 - [AGENTS.md](AGENTS.md) — working instructions for AI agents and people alike
+- [docs/content/](docs/content/) — shared writing rules, starting with headings
 - [docs/decisions/](docs/decisions/) — why things are the way they are
 - [CHANGELOG.md](CHANGELOG.md) — what changed
 
